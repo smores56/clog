@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9,
-          "height": 0.9,
-          "width": 0.9
+          "drill": 0.8128,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -82,6 +82,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -332,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sephirette.kicad_pro",
+    "filename": "clog.kicad_pro",
     "version": 1
   },
   "net_settings": {
