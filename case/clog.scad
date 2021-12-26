@@ -1,20 +1,20 @@
 hole_locations = [
-    [90, 52.33],
-    [90, 18.33],
-    [18.2, 18.33],
-    [54.2, 59.33],
+    [90.5, 52.33],
+    [90.5, 18.33],
+    [18.7, 18.33],
+    [54.7, 59.33],
 ];
 
-positive_tilt = 8;
-tenting_angle = 15;
+positive_tilt = 10;
+tenting_angle = 20;
 
-battery_thickness = 5;
-battery_width = 30;
-battery_length = 40;
+battery_thickness = 15;
+battery_width = 35;
+battery_length = 50;
 
 pcb_thickness = 1.6;
 component_thickness = 2;
-case_thickness = 3;
+case_thickness = 2;
 
 bolt_radius = 1.3;
 strut_radius = 3;
@@ -22,7 +22,7 @@ exit_hole_radius = 5;
 
 accuracy = 100;
 
-right_side = true;
+right_side = false;
 
 module pcb() {
     difference() {
@@ -58,7 +58,7 @@ module case_body() {
     translate([0, 0, -100 + case_thickness +
         component_thickness + pcb_thickness])
     linear_extrude(100)
-    offset(4, $fn=accuracy)
+    offset(5, $fn=accuracy)
     pcb();
 }
 
@@ -72,7 +72,7 @@ module mounting_holes() {
 
 module mounting_hole_struts() {
     for (location = hole_locations) {
-        translate([location[0], location[1], case_thickness])
+        translate([location[0], location[1], case_thickness - 0.1])
         linear_extrude(component_thickness)
         circle(strut_radius, $fn=accuracy);
     }
@@ -87,14 +87,14 @@ module mounting_exit_holes() {
 };
 
 module battery_cutout() {
-    translate([42, 22, -4])
-    cube([battery_length + 2,
-        battery_width + 2,
-        battery_thickness + 3]);
+    translate([105, 8, -35])
+    cube([battery_thickness + 4,
+        battery_length + 4,
+        battery_width + 4 ]);
 }
 
 module wire_cutout() {
-    translate([112.5, 60, 6 - case_thickness])
+    translate([112.5, 60, case_thickness])
     cube([12, 10, 5]);
 }
 
@@ -108,8 +108,8 @@ module heel_cutout() {
 
 module full_case() {
     difference() {
-        translate([0, 0, -case_thickness - component_thickness + 2.5])
-        rotate([5, -tenting_angle, 0])
+        translate([0, 0, -case_thickness - component_thickness + 1])
+        rotate([positive_tilt, -tenting_angle, 0])
         difference() {
             union() {
                 difference() {
@@ -138,4 +138,3 @@ if (right_side) {
 } else {
     full_case();
 };
-
