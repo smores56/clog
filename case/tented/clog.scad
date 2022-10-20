@@ -27,7 +27,7 @@ right_side = false;
 module pcb() {
     difference() {
         translate([-6.5, -6.4, 0])
-        import("clog.svg", $fn=accuracy);
+        import("../clog.svg", $fn=accuracy);
         translate([105, 70.08, 0])
         square([20, 10]);
     };
