@@ -9,8 +9,9 @@ The Steel Toe is a 34-key split keyboard. It has the following features:
 - Splay (4° between middle and ring, 8° between ring and pinky)
 - SplitKB puck support for tenting
 
-<!-- TODO: update pics -->
-![both sides of PCB](https://images.boardsource.xyz/steeltoe.png)
+# Pictures
+
+![The Steel Toe](./images/steel-toe-1.jpg)
 
 ## How to Order
 

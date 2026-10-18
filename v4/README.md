@@ -49,4 +49,7 @@ I'd solder the parts in this order:
 - Batteries (To the +ve pad under the controller and to the -ve hole on the board)
 - The "bodge" wire from the "Reset" hole to the reset pad under the controller
 
+## Pictures
 
+![The Clog V4](./images/clog-v4-1.jpg)
+![The Clog V4 on a desk](./images/clog-v4-2.jpg)

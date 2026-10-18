@@ -45,4 +45,7 @@ I'd solder the parts in this order:
 - The "bodge" wire from the +ve charging pad on the controller to the "Bdg" hole
 - Choc switches
 
+## Pictures
 
+![The Clog V3](./images/clog-v3-1.jpg)
+![The Clog V3 on a desk](./images/clog-v3-2.jpg)

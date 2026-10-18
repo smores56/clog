@@ -10,7 +10,7 @@ The Clog V2 is a 34-key split keyboard. It has the following features:
 - SplitKB puck support for tenting
 - EVQWGD001 roller support
 
-![](./pictures/clog-v2-left-half.jpg "One Half of the Clog V2")
+![The Clog V2](./images/clog-v2-1.jpg)
 
 ## How to Order
 
@@ -50,8 +50,6 @@ I'd solder the parts in this order:
 
 ## Pictures
 
-![](./pictures/clog-v2-both-halves.jpg "The Clog V2")
+![One half of the Clog V2](./images/clog-v2-2.jpg)
 
-![](./pictures/clog-v2-tented.jpg "Tented with Pucks and Manfrotto Tripods")
-
-![](./pictures/clog-v2-logo.jpg "The Clog Logo")
+![The Clog logo](./pictures/clog-v2-logo.jpg)
