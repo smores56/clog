@@ -16,6 +16,8 @@ same layout and firmware, so they live in one repo now, a folder per board:
 
 Each folder has its own README with ordering details and pictures.
 
+Every board across both families is listed at [smores56/keyboards][index].
+
 # Firmware
 
 The pro-micro boards (Clog, V3, Steel Toe and Sephirette) share a matrix, so they
@@ -42,3 +44,4 @@ The unibody half of the family is [the Osprette][osprette].
 [qmk_userspace]: https://github.com/smores56/qmk_userspace
 [zmk-config]: https://github.com/smores56/zmk-config
 [smores-pretty]: https://github.com/smores56/smores.pretty
+[index]: https://github.com/smores56/keyboards
