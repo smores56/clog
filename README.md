@@ -1,6 +1,8 @@
 The Clog Family
 ===============
 
+![The Steel Toe](./steel-toe/images/steel-toe-1.jpg)
+
 The Clog is a split 34-key keyboard with pinky clusters, the split version of [the
 Osprette][osprette]. It grew its own revisions from there, and they all share the
 same layout and firmware, so they live in one repo now, a folder per board:
@@ -18,14 +20,14 @@ Each folder has its own README with ordering details and pictures.
 
 The pro-micro boards (Clog, V3, Steel Toe and Sephirette) share a matrix, so they
 all run the same firmware: `clog` in QMK and the `clog` shield in ZMK. Clog V2 is
-wireless-only and has its own ZMK config, and V4 doesn't have firmware yet. My
+wireless-only and has its own ZMK config, and V4 runs the `geta` shield. My
 personal keymaps live in [qmk_userspace][qmk_userspace] and [zmk-config][zmk-config].
 
 # Building
 
-These boards use my [smores.pretty][smores-pretty] KiCad library as a submodule,
-so clone with `--recurse-submodules`. The original Clog and the Sephirette still
-pull in Foostan's `kbd` and Daprice's `keyswitches.pretty` directly.
+Most of these boards use my [smores.pretty][smores-pretty] KiCad library as a
+submodule, so clone with `--recurse-submodules`. The original Clog and the
+Sephirette instead pull in Foostan's `kbd` and Daprice's `keyswitches.pretty`.
 
 The unibody half of the family is [the Osprette][osprette].
 

@@ -9,6 +9,9 @@ The Steel Toe is a 34-key split keyboard. It has the following features:
 - Splay (4° between middle and ring, 8° between ring and pinky)
 - SplitKB puck support for tenting
 
+The Steel Toe is BoardSource's board, derived from the Clog V3. cole smith
+contributed the reversible Pro Micro footprint.
+
 # Pictures
 
 ![The Steel Toe](./images/steel-toe-1.jpg)
@@ -26,7 +29,7 @@ one on the board somewhere randomly.
 
 Part Name            | Quantity        | Notes                                    | Link
 --------------------:|:---------------:|:----------------------------------------:|:----
-PCB                  | 2 (halves)      |                                          | Look up hurr hurr
+PCB                  | 2 (halves)      |                                          | [JLC](https://jlcpcb.com)
 Choc V1 Switches     | 34              |                                          | <https://www.boardsource.xyz/tags/LP_switch>
 Choc Hotswaps        | 34              |                                          | <https://www.boardsource.xyz/products/Choc_Hot_Swap_Sockets>
 Choc Keycaps         | 34              |                                          | <https://www.boardsource.xyz/tags/LP_keycaps>

@@ -23,8 +23,8 @@ the order number, otherwise they'll put one on the boards somewhere randomly.
 
 Part Name                  | Quantity        | Notes                                    | Link
 --------------------------:|:---------------:|:----------------------------------------:|:----
-PCB                        | 2 (halves)      |                                          | Look up
-Switch Plate               | 2 (halves)      |                                          | Look up
+PCB                        | 2 (halves)      |                                          | [JLC](https://jlcpcb.com)
+Switch Plate               | 2 (halves)      |                                          | [JLC](https://jlcpcb.com)
 Choc V1 Switches           | 34              |                                          | <https://mkultra.click/choc-switches>
 Choc Keycaps               | 34              |                                          | <https://mkultra.click/mbk-factory-colors>
 SMD Diodes                 | 34              |                                          | <https://www.aliexpress.com/item/3256802562651339.html>
@@ -49,7 +49,14 @@ I'd solder the parts in this order:
 - Batteries (To the +ve pad under the controller and to the -ve hole on the board)
 - The "bodge" wire from the "Reset" hole to the reset pad under the controller
 
+## Firmware
+
+The V4 runs the `geta` shield in [my ZMK config][zmk-config].
+
 ## Pictures
 
 ![The Clog V4](./images/clog-v4-1.jpg)
 ![The Clog V4 on a desk](./images/clog-v4-2.jpg)
+
+
+[zmk-config]: https://github.com/smores56/zmk-config
