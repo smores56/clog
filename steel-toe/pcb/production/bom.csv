@@ -1,0 +1,7 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"+1, -1",single-pin,2,MountingHole_Pad,
+J0,trrs,1,AudioJack4dpb,
+"SW1, SW10, SW11, SW12, SW13, SW14, SW15, SW16, SW17, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9",choc-switch-socket-only,17,SW_Push,
+"SW18, SW21",smd_rst_sw,2,SW_Push,
+"SW19, SW20",power-switch,2,SW_SPDT,
+U1,ProMicro_facedown_new_dual,1,ProMicro_r,

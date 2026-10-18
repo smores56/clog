@@ -1,6 +1,24 @@
-[submodule "pcb/keyswitches.pretty"]
-	path = pcb/keyswitches.pretty
-	url = https://github.com/daprice/keyswitches.pretty
-[submodule "pcb/kbd"]
-	path = pcb/kbd
+[submodule "v1/pcb/kbd"]
+	path = v1/pcb/kbd
 	url = https://github.com/foostan/kbd
+[submodule "v1/pcb/keyswitches.pretty"]
+	path = v1/pcb/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty
+[submodule "sephirette/pcb/kbd"]
+	path = sephirette/pcb/kbd
+	url = https://github.com/foostan/kbd
+[submodule "sephirette/pcb/keyswitches.pretty"]
+	path = sephirette/pcb/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty
+[submodule "v2/pcb/smores.pretty"]
+	path = v2/pcb/smores.pretty
+	url = https://github.com/smores56/smores.pretty.git
+[submodule "v3/pcb/smores.pretty"]
+	path = v3/pcb/smores.pretty
+	url = https://github.com/smores56/smores.pretty.git
+[submodule "v4/pcb/smores.pretty"]
+	path = v4/pcb/smores.pretty
+	url = https://github.com/smores56/smores.pretty.git
+[submodule "steel-toe/pcb/smores.pretty"]
+	path = steel-toe/pcb/smores.pretty
+	url = https://github.com/smores56/smores.pretty.git

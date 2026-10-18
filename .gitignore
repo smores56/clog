@@ -1,2 +1,7 @@
-pcb/gerber/
-pcb/clog-backups/
+# KiCad regenerable/local files
+fp-info-cache
+*.kicad_prl
+*-bak
+*.lck
+# OS cruft
+.DS_Store
